@@ -67,15 +67,16 @@ h1, h2, h3, h4, h5 {
 
 
 .navigation{
-
+display:inline-block;
+list-style-type:none;
 }
 
 .section1{
-
+display:inline-block;
 }
 
 .section2{
-
+display:inline-block;
     }
 
 .contact{
@@ -83,23 +84,38 @@ h1, h2, h3, h4, h5 {
 }
 
 .code{
-border-radius:10px;
+radius:10px;
 
 }
 .logo{
-    text-size:10px;
+    font-size:10px;
 }
 
-img{
-
-
-}
 
 footer{
-
+font-size:10px;
 }
 
 
+button{
+background:gray;
+
+/*Box Mode: Content Area: */
+width:100px;
+height: 100px;
+
+
+/*Box Mode: Padding */
+padding: 20px;
+box-sizing: border-box;
+
+/* box model: border */
+border; 1px solid black;
+
+/* Box model :margin */
+margin: 20px;
+
+}
 
 
 
